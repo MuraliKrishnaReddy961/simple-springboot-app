@@ -14,7 +14,7 @@ jobs:
       - name: set JDK version
         uses: actions/setup-java@v4
         with:
-          distribution: 'openjdk'
+          distribution: 'temurin'
           java-version: '17'
       - name: Build and package 
         run: mvn clean install 
