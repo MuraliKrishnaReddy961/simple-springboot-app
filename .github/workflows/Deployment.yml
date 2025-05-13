@@ -2,7 +2,10 @@ name : Run my spring boot application
 on: 
  push:
    branches: 
-     - master 
+     - feature_Branch
+ pull_request:
+    branches: 
+        - master 
     
 jobs:
  build:
